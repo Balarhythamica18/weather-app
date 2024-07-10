@@ -3,7 +3,7 @@ import "./App.css";
 
 /* Images */
 import SearchIcon from "./assets/search.png";
-import ClearIcon from "./assets/clear.png";
+import ClearIcon from "./assets/download.jfif";
 import CloudIcon from "./assets/cloud.png";
 import DrizzleIcon from "./assets/drizzle.png";
 import RainIcon from "./assets/rain.png";
@@ -12,6 +12,7 @@ import SnowIcon from "./assets/SnowCloud.png";
 import HumidityIcon from "./assets/humidity.png";
 import ThunderIcon from "./assets/thunder.png";
 import Mist from "./assets/mist.png";
+import ShowRain from "./assets/ShowRain.jfif"
 
 const WeatherApp = ({ icon, temp, city, country, lat, lon, humidity, wind }) => {
   return (
@@ -75,8 +76,8 @@ const App = () => {
     "03n": DrizzleIcon,
     "04d": DrizzleIcon,
     "04n": DrizzleIcon,
-    "09d": RainIcon,
-    "09n": RainIcon,
+    "09d": ShowRain,
+    "09n": ShowRain,
     "10d": RainIcon,
     "10n": RainIcon,
     "13d": SnowIcon,
